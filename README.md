@@ -1,4 +1,4 @@
-# pass authentication for AWS CLI (and boto) made easy
+# AWS CLI MFA with pass-otp made easy
 
 This plugin enables aws-cli to directly talk to [pass](https://www.passwordstore.org/)
 to acquire an OATH-TOTP code using the [pass-otp](https://github.com/tadfisher/pass-otp) extension.
@@ -36,10 +36,10 @@ mfa_path = foo/aws/bar
 ...
 ```
 
-
 ## Usage
 
 Just use the `aws` command with a custom role and the plugin will do the rest:
+
 ```sh
 $ aws s3 ls --profile myprofile
 2013-07-11 17:08:50 mybucket
