@@ -27,7 +27,7 @@ cli_legacy_plugin_path = /foo/bar/lib/python3.9/site-packages/
 passtotp = awscli_plugin_passtotp
 ```
 
-Also make sure to specify a path to a file in your password-store in your profiles:
+Also make sure to specify a path to a file in your password-store in the profiles managed by pass:
 ```ini
 [profile myprofile]
 role_arn = arn:aws:iam::...
