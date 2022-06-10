@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "awscli-plugin-passtotp"
+version = "1.0.0"
+description = ""
+authors = ["Christian Segundo <christian@segundo.com>"]
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/someone-stole-my-name/awscli-plugin-passtotp"
+documentation = "https://github.com/someone-stole-my-name/awscli-plugin-passtotp/blob/master/README.md"
+
+readme = "README.md"
+
+keywords = ["aws", "aws-cli", "boto3", "pass", "pass-otp"]
+
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+botocore = "^1.14.14"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
