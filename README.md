@@ -49,4 +49,4 @@ $ aws s3 ls --profile myprofile
 ---
 
 ## Acknowledgements
-* Thanks to [@tommie-lie](https://github.com/woowa-hsw0) for the [inspiration for this plugin](https://github.com/tommie-lie/awscli-plugin-yubikeytotp)
+* Thanks to [@tommie-lie](https://github.com/tommie-lie) for [awscli-plugin-yubikeytotp](https://github.com/tommie-lie/awscli-plugin-yubikeytotp)
